@@ -17,7 +17,7 @@ describe('automation', function(){
         cy.get(':nth-child(2) > .text-left > a').should('have.text','iMac')
         cy.get(':nth-child(3) > .text-left > a').should('have.text','Samsung Galaxy Tab 10.1')
         cy.get('[href="http://tutorialsninja.com/demo/index.php?route=checkout/cart"] > strong').click()
-        cy.get(':nth-child(1) > :nth-child(4) > .input-group > .form-control').clear().type('2')
+        cy.get(':nth-child(1) > :nth-child(4) > .input-group > .form-control').clear().type('3')
         cy.get(':nth-child(1) > :nth-child(4) > .input-group > .input-group-btn > .btn-primary').click()
        // expect( cy.get('.alert-danger')).to.contain('Products marked with *** are not available in the desired quantity or not in stock!')
     //     cy.contains('automation, practice',(e) =>{
